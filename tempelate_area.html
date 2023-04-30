@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+          "navbar navbar navbar navbar"
+          "section section section aside"
+          "footer footer footer footer ";
+      }
+      .item {
+        background-color: yellow;
+        border: 3px solid black;
+      }
+      #navbar {
+        grid-area: navbar;
+      }
+      #section {
+        grid-area: section;
+      }
+      #aside {
+        grid-area: aside;
+      }
+    #footer{
+        grid-area: footer;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="navbar" class="item">home about</div>
+      <div id="section" class="item">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis unde
+        est, expedita architecto vitae, perferendis fuga quidem impedit
+        deserunt, atque facere aliquid a asperiores eos nihil magni non
+        excepturi nemo obcaecati saepe perspiciatis ducimus tempore. Beatae,
+        reprehenderit distinctio! Aliquam labore voluptatibus dolore et minus
+        accusamus nisi quasi eos atque officiis natus iure magni asperiores
+        exercitationem praesentium veritatis, in ipsam facilis architecto rerum
+        sit veniam neque ex. Maiores sunt quaerat perspiciatis incidunt vitae
+        voluptates voluptatibus sint officia! Eligendi eum quam voluptatibus,
+        repudiandae in aliquam voluptatum veritatis quaerat magnam cumque dolor
+        consequuntur adipisci nemo temporibus, veniam ex, commodi laborum modi
+        ab dolorum.
+      </div>
+      <div id="aside" class="item">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+        inventore consectetur illum cupiditate expedita aliquam, iusto facere
+        repudiandae delectus atque odio numquam fugit excepturi vitae quibusdam,
+        a molestias sint culpa sunt eaque laboriosam nobis optio tempora
+        commodi? Sed impedit, quia molestias autem rem minima, quisquam sunt,
+        porro veniam blanditiis voluptas!
+      </div>
+      <div>
+        <footer class="item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque neque
+          velit aspernatur saepe incidunt dolorum unde cumque, error modi
+          reprehenderit maxime quia eligendi aut doloremque ipsa illum minima
+          iusto eos!
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
